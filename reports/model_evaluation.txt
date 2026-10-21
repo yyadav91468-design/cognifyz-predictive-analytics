@@ -1,0 +1,22 @@
+COGNEVANCE - SALES PREDICTION MODEL REPORT
+====================================================
+Selected model: Random Forest
+Selection metric: lowest RMSE on chronological holdout
+Training rows: 276
+Testing rows: 69
+Test period: 2011-10-01 to 2011-12-08
+MAE: 16102.5486
+RMSE: 27008.5953
+R2: 0.2543
+
+MODEL COMPARISON
+                 Model          MAE         RMSE        R2
+         Random Forest 16102.548611 27008.595347  0.254306
+Hist Gradient Boosting 17301.653977 27405.396679  0.232234
+     Linear Regression 19527.564208 28455.462920  0.172271
+           Extra Trees 17476.988242 28882.706279  0.147229
+         Mean Baseline 31500.801719 39533.014271 -0.597631
+
+Currency: GBP
+Metrics describe the holdout period only.
+This baseline does not guarantee future forecasting accuracy.

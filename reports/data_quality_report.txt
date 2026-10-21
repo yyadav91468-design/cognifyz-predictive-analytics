@@ -1,0 +1,16 @@
+COGNEVANCE PREDICTIVE ANALYTICS - DATA QUALITY REPORT
+==========================================================
+Source file: Online Retail.xlsx
+Valid transaction records: 530,104
+Unique transaction dates: 305
+Date range: 2010-12-01 to 2011-12-09
+Prepared daily feature rows: 345
+Feature columns: 14
+Missing values in prepared dataset: 0
+Output file: D:\Projects\cognevance_predictive_analytics\data\processed\daily_sales_features.csv
+
+Target: next calendar day's positive sales revenue in GBP.
+Cancellations, returns, and non-positive sales are excluded.
+This is a forecasting baseline, not a guarantee of future performance.
+Dataset: UCI Online Retail, DOI: 10.24432/C5BW33
+License: CC BY 4.0
