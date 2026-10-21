@@ -165,3 +165,37 @@ These are the current recorded results. Rerun training to regenerate the reports
 ## Project Status
 
 Local preprocessing, model training, FastAPI prediction, and Streamlit dashboard have been run successfully during development. Confirm automated tests and any cloud deployment independently before claiming those stages as complete.
+
+## Live Deployment
+
+### Application Links
+
+- **Prediction API:** https://cognifyz-sales-prediction-api.onrender.com
+- **Interactive API Documentation:** https://cognifyz-sales-prediction-api.onrender.com/docs
+- **Health Check:** https://cognifyz-sales-prediction-api.onrender.com/health
+- **Sales Dashboard:** Add the public Render dashboard URL here.
+
+### Machine Learning Model
+
+The project uses a Random Forest regression model to estimate next-day sales using historical retail sales features.
+
+**Sample API response:**
+
+```json
+{
+  "predicted_next_day_sales": 42356.51,
+  "currency": "GBP",
+  "model_name": "Random Forest",
+  "note": "This is a model estimate, not a guarantee of future sales."
+}
+```
+
+### Deployment Verification
+
+- API health endpoint tested successfully.
+- Prediction endpoint returned HTTP 200.
+- Random Forest model returned a predicted sales value.
+- Interactive dashboard loaded successfully.
+
+*Note: Predictions are estimates and should not be interpreted as guaranteed future sales.*
+
