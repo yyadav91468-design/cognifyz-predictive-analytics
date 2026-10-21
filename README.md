@@ -38,6 +38,36 @@ Place the downloaded Excel file at:
 `data/raw/Online Retail.xlsx`
 
 The raw data contains transaction-level records. The modelling pipeline aggregates valid transactions into daily sales and creates features to estimate next-day sales.
+## 🚀 Live Demo
+
+- **Interactive Sales Dashboard:** https://cognifyz-sales-dashboard.onrender.com/
+- **Prediction API:** https://cognifyz-sales-prediction-api.onrender.com
+- **API Documentation (Swagger):** https://cognifyz-sales-prediction-api.onrender.com/docs
+- **API Health Check:** https://cognifyz-sales-prediction-api.onrender.com/health
+
+## 🧠 Machine Learning
+
+The application uses a Random Forest regression model to predict next-day retail sales based on historical sales features.
+
+### Sample Prediction Response
+
+```json
+{
+  "predicted_next_day_sales": 42356.51,
+  "currency": "GBP",
+  "model_name": "Random Forest",
+  "note": "This is a model estimate, not a guarantee of future sales."
+}
+```
+
+### Deployment Verification
+
+- API health endpoint tested successfully.
+- Prediction endpoint returned HTTP 200.
+- Random Forest model produced a prediction.
+- Interactive sales dashboard opened successfully.
+
+*Predictions are estimates and do not guarantee actual future sales.*
 
 ## Project Structure
 
